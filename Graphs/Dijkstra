@@ -1,3 +1,7 @@
+//Dijkstra using Priority Queue(because we need minimum distance at first)
+//It does not work for negative weights
+//TC:O(ElogV) SC:O(V)+O(V) ~ O(V)
+
 class Pair
 {
     int node,distance;
