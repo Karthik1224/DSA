@@ -1,6 +1,6 @@
 //Dijkstra using Priority Queue(because we need minimum distance at first)
 //It does not work for negative weights
-//TC:O(ElogV) SC:O(V)+O(V) ~ O(V)
+//TC:O(ElogV) SC:O(V)+O(E) -> no of nodes/vertices and no of edges
 
 class Pair
 {
